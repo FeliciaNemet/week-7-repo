@@ -46,9 +46,6 @@ function App() {
             <FanInformation 
             key = {team.id} teamName={team.name}
             number = {index}
-            city = {team.city}
-            stadium = {team.    stadium}
-            followTeamFunction    = {followTeam}
             />
             )
           })
