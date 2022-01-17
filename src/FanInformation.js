@@ -13,7 +13,7 @@ const FanInformation = (props) => {
      //           }
      // }
 
-     const {teamName, number, city, stadium, followTeamFunction} = props;
+     const {teamName, number} = props;
 
      const followMySpecificTeam = () => {
           props.followTeamFunction(teamName);

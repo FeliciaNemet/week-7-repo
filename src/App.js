@@ -28,10 +28,7 @@ function App() {
 
   const sportsTeams = [ancientBirbsTeam, modernBirbs];
 
-  const followTeam = (name) => {
-    console.log(`You are now following that ${name}`);
-  }
-
+  
   return (
     <div>
       <PageHeading>
